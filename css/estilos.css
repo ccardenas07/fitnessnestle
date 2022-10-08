@@ -1,0 +1,427 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*boton para enlace siguiente de la pantalla mecanica*/
+
+@font-face {
+
+	font-family: 'FuturaBT-Book';
+
+	src: url('FuturaBT-Book.eot?') format('eot'), 
+
+	     url('FuturaBT-Book.woff') format('woff'), 
+
+	     url('FuturaBT-Book.ttf')  format('truetype'),
+
+	     url('FuturaBT-Book.svg#FuturaBT-Book') format('svg');
+
+}
+
+
+
+
+
+
+
+body
+
+{
+
+	font-family:'FuturaBT-Book';
+
+}
+
+.boton
+
+{
+
+	margin-left: 252px;
+
+    margin-top: -92px;
+
+}
+
+
+
+img
+
+{
+
+	border:none;
+
+}
+
+
+
+/*posicion de formulario*/
+
+.formulario
+
+{
+
+	
+
+	 color:#717171;
+
+	 font-family:'FuturaBT-Book';
+          /*margin-left: 405px !important;*/
+          margin-left: 385px !important;
+
+     margin-top: -420px !important;
+
+	 
+
+}
+
+/*posicion campo de texto nombre*/
+
+.nombre
+
+{
+
+	margin-left: 96px;
+
+    margin-top: -12px;
+    
+
+	
+
+}
+
+/*posicion campo de texto apellido*/
+
+.apellido
+
+{
+    margin-left:201px;
+    margin-top:-30px;
+    /*margin-left: 223px;
+    margin-top: -31px;*/
+}
+
+/*posicion campo de texto edad*/
+
+.edad
+
+{
+
+    margin-left: 96px;
+
+    margin-top: -9px;
+
+}
+
+/*posicion campo de texto celular*/
+
+.celular
+
+{
+
+	margin-left: 97px;
+
+    margin-top: -25px;
+
+}
+
+/*posicion campo de texto email*/
+
+.email
+
+{
+
+	margin-top: -26px;
+
+	margin-left: 96px;
+
+}
+
+/*posicion campo de texto cedula*/
+
+.cedula
+
+{
+
+	margin-top: -24px;
+
+	margin-left: 95px;
+
+}
+
+/*posicion campo de texto ciudad*/
+
+.ciudad
+
+{
+
+	margin-top: -24px;
+
+	margin-left: 95px;
+
+}
+
+/*posicion label de texto nombre*/
+
+.lnom
+
+{
+
+	margin-top: 23px;
+
+	margin-left: 22px;
+
+	width: 159px !important;
+
+	height: 5px !important;
+
+	z-index:100;
+
+	color: #FFFFFF;
+
+}
+
+/*posicion label edad*/
+
+.ledad
+
+{
+
+	height: 5px !important;
+
+    margin-left: 49px;
+
+    margin-top: 25px;
+
+    width: 159px !important;
+
+    z-index: 100;
+
+	color: #FFFFFF;
+
+}
+
+/*posicion label de texto cel*/
+
+.lcel
+
+{
+
+	margin-left: 34px;
+
+    margin-top: 28px;
+
+	color: #FFFFFF;
+
+	/*width:5px;
+
+	height:5px;*/
+
+}
+
+/*posicion label de texto email*/
+
+.lemail
+
+{
+
+	margin-top: 30px;
+
+	margin-left: 37px;
+
+	color: #FFFFFF;
+
+/*width:10px;
+
+	height:5px;*/
+
+}
+
+/*posicion label de texto ced*/
+
+.lced
+
+{
+
+	margin-top: 21px;
+
+	margin-left: 36px;
+
+	color: #FFFFFF;
+
+/*width:5px;
+
+	height:5px;*/
+
+}
+
+/*posicion label de texto ciudad*/
+
+.lciudad
+
+{
+
+	margin-left: 36px;
+
+    margin-top: 21px;
+
+    width: 50px;
+
+	color: #FFFFFF;
+
+}
+
+/*diseño de los inputs*/
+
+input
+
+{
+
+	padding:7px;
+
+    margin: 0;
+
+    -webkit-border-radius:4px;
+
+    -moz-border-radius:4px;
+
+    border-radius:4px;
+
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+
+    background: #f8f8f8;
+
+    color:#888;
+
+    border:none;
+
+    outline:none;
+
+    display: inline-block;
+
+    -webkit-appearance:none;
+
+    -moz-appearance:none;
+
+    appearance:none;
+
+    cursor:pointer;
+
+	
+
+}
+
+/*posicion  del boton compartir*/
+
+.compartir
+
+{
+
+	margin-left: -10px !important;
+
+    margin-top: -12px !important;
+
+	float:left;
+
+	position:absolute;
+
+	z-index:134;
+
+	/*margin-top: 168px;
+
+margin-left: 551px;*/
+
+	
+
+}
+
+.botonform
+
+{
+margin-left: 179px;
+margin-top: 37px;
+
+}
+
+/*textarea historia*/
+
+.historia
+
+{
+
+/*	height: 375px;*/
+
+    margin-left: 71px;
+
+    margin-top: -447px;
+
+	font-family:'FuturaBT-Book';
+
+  /*  width: 334px;*/
+
+}
+
+/*boton enviar historia*/
+
+.enviarh
+
+{
+
+	margin-left: 322px;
+
+    margin-top: 310px;
+
+}
+
+
+
+.paginacion
+
+{
+
+	 margin-left: 280px;
+
+    margin-top: 10px;
+
+}
+
+.camara
+
+{
+
+	margin-left: 518px;
+
+    margin-top: -260px;
+
+}
+
+.contenido
+
+{
+
+	 margin-top: -559px;
+
+}
+
+.terminos
+
+{
+
+	 margin-left: 265px;
+
+    margin-top: 0;
+
+}
+.contform
+{
+    width:413px !important;
+    height: 335px !important;
+    /* margin-left: 405px !important;
+
+     margin-top: -420px !important;*/
+        
+}
+
